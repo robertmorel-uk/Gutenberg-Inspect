@@ -1,4 +1,7 @@
+#Custom Gutenberg used to burrow code blocks and inspect core
+
 # Gutenberg
+
 [![Build Status](https://img.shields.io/travis/WordPress/gutenberg/master.svg)](https://travis-ci.org/WordPress/gutenberg)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
@@ -9,7 +12,8 @@ Printing since 1440.
 This repo is the development hub for the <a href="https://make.wordpress.org/core/2017/01/04/focus-tech-and-design-leads/">editor focus in WordPress Core</a>. `Gutenberg` is the project name.
 
 ## Getting started
-- **Download:** If you want to use the latest release with your WordPress site, <a href="https://wordpress.org/plugins/gutenberg/">download the latest release from the WordPress.org plugins repository</a>. 
+
+- **Download:** If you want to use the latest release with your WordPress site, <a href="https://wordpress.org/plugins/gutenberg/">download the latest release from the WordPress.org plugins repository</a>.
 - **Discuss:** Conversations and discussions take place in <a href="https://wordpress.slack.com/messages/C02QB2JS7">`#core-editor` channel on the Making WordPress Slack</a>.
 - **Contribute:** Development of Gutenberg happens in this GitHub repo. Get started by <a href="https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md">reading the contributing guidelines</a>.
 - **Learn:** <a href="https://wordpress.org/gutenberg/">Discover more about the project on WordPress.org</a>.
@@ -18,7 +22,7 @@ This repo is the development hub for the <a href="https://make.wordpress.org/cor
 
 ## Editing focus
 
-> *The editor will create a new page- and post-building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery.*
+> _The editor will create a new page- and post-building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery._
 >
 > — Matt Mullenweg
 
@@ -51,9 +55,10 @@ Posts are backwards compatible, and shortcodes will still work. We are continuou
 ## The stages of Gutenberg
 
 Gutenberg has three planned stages.
-1) **The first, aimed for inclusion in WordPress 5.0, focuses on the post editing experience** and the implementation of blocks. This initial phase focuses on a content-first approach. The use of blocks, as detailed above, allows you to focus on how your content will look without the distraction of other configuration options. This ultimately will help all users present their content in a way that is engaging, direct, and visual. These foundational elements will pave the way forward.
-2) Planned for 2019, **The second stage focuses on overhauling The Customizer** and page templates.
-3) Ultimately, **full site customization** will be possible.
+
+1. **The first, aimed for inclusion in WordPress 5.0, focuses on the post editing experience** and the implementation of blocks. This initial phase focuses on a content-first approach. The use of blocks, as detailed above, allows you to focus on how your content will look without the distraction of other configuration options. This ultimately will help all users present their content in a way that is engaging, direct, and visual. These foundational elements will pave the way forward.
+2. Planned for 2019, **The second stage focuses on overhauling The Customizer** and page templates.
+3. Ultimately, **full site customization** will be possible.
 
 **Gutenberg is a big change.** There will be ways to ensure that existing functionality (like shortcodes and meta-boxes) continue to work while allowing developers the time and paths to transition effectively. Ultimately, it will open new opportunities for plugin and theme developers to better serve users through a more engaging and visual experience that takes advantage of a toolset supported by core.
 
